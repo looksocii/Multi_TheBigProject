@@ -38,7 +38,7 @@ Import Google Fonts
 
 body {
     margin: 0px;
-    font-family: cloud light;
+    font-family: Century Gothic;
 }
 
 h1,
@@ -282,6 +282,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
+    font-family: cloud light;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 50px;
