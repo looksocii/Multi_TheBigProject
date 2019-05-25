@@ -1,0 +1,329 @@
+body{
+    /*background-color: #EAEFF9;*/
+    margin: 0px;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+nav .c {
+    font-size: 5px;
+}
+
+nav.black {
+    background: rgb(0, 0, 0, 0.8);
+    height: 80px;
+    padding: 10px 100px;
+}
+
+nav {
+    background: rgb(255, 255, 255, 0.8);
+    height: 80px;
+    padding: 10px 80px;
+}
+
+nav .logo {
+    padding: 10px 4px;
+    height: 80px;
+    float: left;
+    font-size: 30px;
+    transition: .3s;
+}
+
+nav.black .logo {
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    line-height: 60px;
+    color: #151515;
+    padding: 11px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+    font-size: 19px;
+}
+
+nav.black ul li a {
+    color: #fff;
+}
+
+nav ul li a:focus {
+    outline: none;
+}
+
+nav ul li a.active {
+    background-image: linear-gradient(to right, #bb00ff 0%, #46d2d2 100%);
+    border-radius: 6px;
+    color: #fff;
+    
+}
+
+
+section.sec1 {
+    width: 100%;
+    height: 100vh;
+    /*background: url(https://images.wallpaperscraft.com/image/girl_mountains_backpack_114178_5458x3705.jpg);*/
+    background: url(image/newgay.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    margin: 20px auto;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 70px;
+    padding: 10px;
+    /*background-color: blue;*/
+}
+
+.card {
+    height: 400px;
+}
+
+.card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.content {
+    margin-top: 50px;  
+}
+
+.content p {
+    width: 1050px;
+    margin: 30px auto;
+    text-align: justify;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: cloud light;
+}
+
+h1 {
+    font-family: Cloud light;
+    text-align: center; 
+}
+
+h3 {
+    font-family: cloud light;
+    text-align: center;
+    font-size: 28px;
+}
+
+h4 {
+    font-family: cloud light;
+    font-size: 28px;
+    padding-top: 23px; 
+}
+
+h5 {
+    font-family: cloud;
+}
+
+.question-test {
+    /*top: 1816px;*/
+    top: 9px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    position: absolute;
+    width: 770px;
+    height: auto;
+    /*border: 1px solid;*/
+    border-radius: 20px;
+    /*margin-top: 20px;*/
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    
+}
+
+.question {
+    /*margin: 20px auto;*/
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 100px;
+    padding: 10px;
+}
+
+.choice1 {
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid green;
+    background-color: none;
+    /*background: url(image/corect.png);
+    background-size: cover;
+    background-position: center;*/
+}
+
+.choice1:hover {
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+    transition: .3s;
+    /*background: url(image/corect.png);
+    background-size: cover;
+    background-position: center;*/
+}
+
+.choice2 {
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid red;
+    background-color: none;
+    
+}
+
+.choice2:hover {
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    transition: .3s;
+    /*background: url(image/corect.png);
+    background-size: cover;
+    background-position: center;*/
+}
+
+.color {
+    margin-bottom: 50px; 
+}
+
+.line {
+    border: 1px solid gray;
+    width: 600px;
+}
+
+.boxback {
+    position: relative;
+    width: 790px;
+    height: 1256px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+    right: 0px;
+}
+.back {
+    width: 784px;
+    height: 211px;
+}
+
+
+.btn1 {
+    background-image: linear-gradient(to right, #bb00ff 0%, #46d2d2 100%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: linear-gradient(to right, #bb00ff 0%, #46d2d2 100%);
+    display: block;
+    height: 80px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    padding: 8px;
+    position: relative;
+     text-decoration: none;
+    text-transform: uppercase;
+    width: 260px;
+    z-index: 2;
+    margin-bottom: 5px;
+}
+
+.btn1:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn1 span {
+    align-items: center;
+    background: white;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background .5s ease;
+    width: 100%;
+    font-weight: bold;
+    font-family: cloud light;
+    font-size: 24px;
+
+}
+
+.btn1:hover span {
+    background: transparent;
+}
+
+/*button span {
+    background: -webkit-linear-gradient(right,#35c9ff,#27d853);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button:hover {
+    border: none;
+    background-image: -webkit-linear-gradient(right,#35c9ff,#27d853);
+    color: white;
+    border-radius: 30px;
+}
+
+button:hover span {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}*/
+
+.question[data-select="1"] .choice1{
+    transition: .3s;
+    background-image: url(image/corect.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.question[data-select="2"] .choice2 {
+    background-image: url(image/incorect.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.bigbox {
+    position: relative;
+    /*background-color: blue;*/
+    width: auto;
+    height: auto;
+}
+
+.card-text {
+    font-family: cloud light;
+}
+
